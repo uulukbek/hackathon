@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "LG",
+        "price": 1222.0,
+        "created_at": "2022-10-07 20:11:36.869425",
+        "description": "TV",
+        "is_active": true,
+        "update_at": "2022-10-08 15:00:27.776434"
+    },
+    {
+        "id": 2,
+        "name": "Iphone 13",
+        "price": 22.0,
+        "created_at": "2022-10-08 14:51:56.167857",
+        "description": "Phone",
+        "update_at": "2022-10-08 14:52:03.588400",
+        "is_active": true
+    }
+]
