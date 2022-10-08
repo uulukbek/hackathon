@@ -34,17 +34,9 @@ def get_data(filter=None):
             elif is_active == 'не активные': 
                 new_data = [i for i in data if i['is_active'] == False]
                 return new_data
-        
-
-
-
-
-
-
-
-
-
     return data
+
+
 def get_products(): 
     with open(FILE) as file:
         data = json.load(file)
@@ -56,8 +48,8 @@ def get_product(id):
     product = [i for i in data if i['id'] == id]
     if product: 
         return product[0]
-
     return 'Нет такого продукта'
+
 
 def post_prouct(): 
     data = get_data()
@@ -74,7 +66,6 @@ def post_prouct():
     with open(FILE, 'w') as file: 
         json.dump(data, file)
         return 'Вы успешно опубликовали продукт'
-
 
 
 def update_product(id):
